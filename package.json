@@ -1,7 +1,7 @@
 {
   "name": "struts",
   "version": "1.0.2",
-  "description": "support for ES6 node projects",
+  "description": "support for node projects",
   "author": "Mike Smiley <msmiley@alumni.rice.edu>",
   "url": "https://github.com/msmiley/struts",
   "main": "./src",

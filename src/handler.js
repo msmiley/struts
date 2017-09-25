@@ -10,6 +10,13 @@ class Handler {
   //
   constructor(emitter) {
     this.emitter = emitter;
+    
+    // call init() if it is defined. This is a struts.Handler user convenience
+    // to prevent having to call super() in the derived class constructor. The user
+    // may put initialization code in init() and the Handler base will call it.
+    if (this.init && typeof(this.init) === 'function') {
+      this.init();
+    }
   }
   
   //

@@ -1,0 +1,12 @@
+{
+  "name": "struts",
+  "version": "1.0.0",
+  "description": "support for ES6 node projects"
+  "author": "Mike Smiley <msmiley@alumni.rice.edu>",
+  "url": "https://github.com/msmiley/struts",
+  "main": "./src",
+  "repository": "msmiley/struts.git",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

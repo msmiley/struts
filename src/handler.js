@@ -24,8 +24,8 @@ class Handler {
       // log only if debug was ever enabled
       if (this._isDebug) {
         this.emitter.emit('log', {
-          src: this.constructor.name,
           lvl: 'debug',
+          src: this.constructor.name,
           msg: msg
         });
       }
@@ -38,8 +38,8 @@ class Handler {
   //
   log(msg) {
     this.emitter.emit('log', {
-      src: this.constructor.name,
       lvl: 'normal',
+      src: this.constructor.name,
       msg: msg
     });
     return this;
@@ -50,8 +50,8 @@ class Handler {
   //
   error(err) {
     this.emitter.emit('error', {
-      src: this.constructor.name,
       lvl: 'error',
+      src: this.constructor.name,
       msg: err
     });
     return this;

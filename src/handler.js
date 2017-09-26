@@ -1,5 +1,5 @@
 //
-// Base class for Struts Handler
+// Base class for a Struts Handler
 //
 class Handler {
   //
